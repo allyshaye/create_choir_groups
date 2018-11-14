@@ -170,9 +170,9 @@ def handle_leftovers(leftover_list, groupings, choir_list):
     voice = indiv_info['voice']
     groupings_voice_totals = {
       'sat_8': len(groupings['sat_8'][voice]),
-      'sat_11': len(groupings['sat_8'][voice]),
-      'sun_7': len(groupings['sat_8'][voice]),
-      'sun_10': len(groupings['sat_8'][voice]),
+      'sat_11': len(groupings['sat_11'][voice]),
+      'sun_7': len(groupings['sun_7'][voice]),
+      'sun_10': len(groupings['sun_10'][voice]),
     }
 
     largest_group = max(groupings_voice_totals, 
